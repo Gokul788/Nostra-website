@@ -336,6 +336,7 @@ background: linear-gradient(56deg, rgba(255,255,255,1) 1%, rgba(0,0,0,1) 100%);
     .heart-icon.liked {
         background-image: url('https://img.icons8.com/ios-filled/50/fa314a/like.png'); /* Filled heart icon */
         transform: scale(1.2);
+        background-size: contain;
     }
     .sale
     {

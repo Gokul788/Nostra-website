@@ -1,8 +1,9 @@
-let heartIcon = document.getElementById('heartIcon');
+document.querySelectorAll('.heart-icon').forEach(heart => {
+    heart.addEventListener('click', function() {
+        this.classList.toggle('liked');
+    });
+});
 
-        heartIcon.addEventListener('click', () => {
-            heartIcon.classList.toggle('liked');
-        });
 
 
 var cancel = document.getElementById("Cancel");
