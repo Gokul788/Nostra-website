@@ -280,6 +280,7 @@ background: linear-gradient(56deg, rgba(255,255,255,1) 1%, rgba(0,0,0,1) 100%);
        height: auto;
        border: none;
        left: 0;
+       transition: none;
        
     }
     .close{
