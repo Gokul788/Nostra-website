@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+
+    <!--CSS link-->
+    <link rel="stylesheet" href="style3.css">
+
+    <!--JS link-->
+
+    <script src="collection.js" defer></script>
+
+    <!--BOXICONS ADD-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+
+        
+<body>
+
+        <!--Ad Section-->
+        <div class="ad">
+            <h3>Sign Up and <span>GET 20% OFF</span> for your frist Order</span></h3>
+            <i class='bx bx-x' id="Cancel"></i>
+        </div>
+        
+        <!--Navbar-->
+        <header class="header">
+
+        <h1>Nostra</h1>
+        <i class='bx bx-menu' id="menu"></i> 
+
+        <nav class="Navbar">
+                
+                <a href="index.html">Home</a>
+                <a href="#">New Arrival</a>
+                <a href="#">Most Wanted</a>
+                <a href="collection.html">Collections</a>
+                <div class="close">
+                    <button id="closed" onclick="close()">Close</button>
+
+                 </div>
+        </nav>
+        <a href="contact.html" class="btn">Contact Us</a>
+    </header>
+
+    <main>
+       <div class="container">
+        <div class="divide-section">
+            <div class="filter-section">
+               <h3 class="filter-section-occasion">Occasion</h3>
+               <div>
+                <input type="checkbox" name="tags" value="summer">Summer
+                <br>
+                <input type="checkbox" name="tags" value="party">Party
+                <br>
+                <input type="checkbox" name="tags" value="beach">Beach
+               </div> 
+               <h3 class="filter-section-colors">Colors</h3>
+               <div>
+                <input type="checkbox" name="tags" value="red">Red
+                <br>
+                <input type="checkbox" name="tags" value="blue">Blue
+                <br>
+                <input type="checkbox" name="tags" value="white">White
+                <br>
+                <input type="checkbox" name="tags" value="green">Green
+               </div>
+               <h3 class="filter-section-arrivals">Arrivals</h3>
+               <div>
+                <input type="checkbox" name="tags" value="new">
+                New
+                <br>
+                <input type="checkbox" name="tags" value="old">Old
+               </div>
+               <hr class="vertical-line">
+            </div>
+
+            <div class="product-section">
+                <form action="" class="navbar-search">
+                    <input type="search" placeholder="search">
+                    <i class='bx bx-search'></i>
+                </form>
+                <div class="products">
+                    <div class="product">
+                        <img style="width: 20vw;" src="image/c-1.jpg" alt="">
+                        <h1>Floral Summer Shirt</h1>
+                        <p>₹220</p>
+                        <tags style="visibility: hidden;">new,blue,summer</tags>
+                    </div>
+
+                    <div class="product">
+                        <img style="width: 20vw;" src="image/c-2.jpg" alt="">
+                        <h1>Summer Green</h1>
+                        <p>₹260</p>
+                        <tags style="visibility: hidden;">new,green,beach</tags>
+                    </div>
+
+                    <div class="product">
+                        <img style="width: 20vw;" src="image/c-3.jpg" alt="">
+                        <h1>Party Floral Shirt</h1>
+                        <p>₹399</p>
+                        <tags style="visibility: hidden;">old,red,party</tags>
+                    </div>
+
+                    <div class="product">
+                        <img style="width: 20vw;" src="image/c4.jpg" alt="">
+                        <h1>Floral Summer Shirt</h1>
+                        <p>₹399</p>
+                        <tags style="visibility: hidden;">old,white,beach</tags>
+                    </div>
+
+                    <div class="product">
+                        <img style="width: 20vw;" src="image/c5.jpg" alt="">
+                        <h1>Beach Shirt</h1>
+                        <p>₹579</p>
+                        <tags style="visibility: hidden;">old,white,beachr</tags>
+                    </div>
+
+                    <div class="product">
+                        <img style="width: 20vw;" src="image/c6.jpg" alt="">
+                        <h1>Shirt Party Red</h1>
+                        <p>₹579</p>
+                        <tags style="visibility: hidden;">old,red,party</tags>
+                    </div>
+
+                    <div class="product">
+                        <img style="width: 20vw;" src="image/c7.jpg" alt="">
+                        <h1>Party Floral Shirt</h1>
+                        <p>₹399</p>
+                        <tags style="visibility: hidden;">old,red,party</tags>
+                    </div>
+
+                    <div class="product">
+                        <img style="width: 20vw;" src="image/c8.jpg" alt="">
+                        <h1>Shirt Party Red</h1>
+                        <p>₹579</p>
+                        <tags style="visibility: hidden;">old,red,party</tags>
+                    </div>
+
+                    <div class="product">
+                        <img style="width: 20vw;" src="image/c9.jpg" alt="">
+                        <h1>Floral Summer Shirtt</h1>
+                        <p>₹220</p>
+                        <tags style="visibility: hidden;">new,blue,summer</tags>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+       </div> 
+
+        <!--Message-->
+    <div class="newsletter-container">
+        <h2>Join our Newsletter</h2>
+        <p>Signup for our email newspaper to get exclusive discounts, updates, and more</p>
+        <form action="#" method="post">
+            <input type="email" placeholder="Enter your email" class="email-input" required>
+            <button type="submit" class="subscribe-btn">Subscribe</button>
+        </form>
+    </div>
+
+        
+    </main>
+    <footer class="footer-container">
+        <div class="footer-content">
+            <h2 class="footer-title">Nostra</h2>
+            <p class="footer-text">The standard chunk of Lorem ipsum used since the 1500s is reproduced below for those interested.</p>
+            <div class="social-icons">
+                <a href="#" class="social-icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="social-icon"><i class='bx bxl-twitter' ></i></a>
+                <a href="#" class="social-icon"><i class='bx bxl-facebook' ></i></a>
+            </div>
+            <p class="footer-copyright">© 2023 Nostra.com</p>
+        </div>
+    </footer>
+</body>
+</html>   

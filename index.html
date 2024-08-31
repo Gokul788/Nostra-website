@@ -33,14 +33,42 @@
 
         <nav class="Navbar">
                 
-                <a href="#">Home</a>
-                <a href="#">New Arrival</a>
-                <a href="#">Most Wanted</a>
-                <a href="#">Collections</a>
-                
+                <a href="index.html">Home</a>
+                <a href="#arrivals">New Arrival</a>
+                <a href="#Most">Most Wanted</a>
+                <a href="collection.html">Collections</a>
+                <a href="contact.html">Contact</a>
+                <div class="close">
+                    <button id="closed" onclick="close()">Close</button>
+
+                 </div>
         </nav>
-        <a href="#" class="btn">Contact Us</a>
+        <a href="contact.html" class="btn">Contact Us</a>
     </header>
+
+    <!--slider-->
+     <div class="slider">
+        <div class="slider-left-button">
+            <i class='bx bxs-chevron-left' style='color:#ffffff' id="slider-left-activate" ></i>
+        </div>
+        <div class="slider-content">
+            <h1>Level up your style with our</h1>
+            <h4>Summer Collections</h4>
+            <button>Shop Now
+                <i class='bx bxs-right-arrow-alt' style='color:#080808'  ></i>
+            </button>
+        </div>
+        <div class="slider-image-container" style="margin-left: -100vw;">
+            <img class="slider-image"  src="image/slider-one.jpg" alt="" width="100%">
+            <img  class="slider-image"  src="image/slider-one.jpg" alt="" width="100%">
+            <img class="slider-image"   src="image/slider-one.jpg" alt="" width="100%">
+
+        </div>
+        <div class="slider-right-button">
+            <i class='bx bxs-chevron-right' style='color:#ffffff' id="slider-right-activate" ></i>
+        </div>
+     </div>
+    
 
        <!--Brands-->
       <main>
@@ -146,7 +174,7 @@
     </div>
    <!--arrivals-->
 
-    <section class="arrivals">
+    <section class="arrivals" id="arrivals">
         <h4>New Arrivals</h4>
         <div class="products">
         <div class="pic-1">
@@ -176,7 +204,7 @@
     </div>
     </section>
 
-    <section class="Most">
+    <section class="Most" id="most">
         <h4>Most Wanted</h4>
         <div class="most-1">
             <div class="photo-container">
@@ -188,9 +216,7 @@
             </div>
             <div class="photo-container">
                 <img src="image/f6.jpg" alt="Photo" class="photo">
-                <div class="heart-icon" id="heartIcon">
-
-                </div>
+                <div class="heart-icon" id="heartIcon"></div>
                 <div class="sale">
                     <h2>Sale</h2>
                 </div>
@@ -245,6 +271,6 @@
             <p class="footer-copyright">© 2023 Nostra.com</p>
         </div>
     </footer>
-</body>
 
+ </body>
 </html>
