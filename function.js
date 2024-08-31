@@ -19,6 +19,7 @@ var navbar = document.querySelector(".Navbar");
   
 menu.addEventListener("click",function(){
     navbar.style.left = "0"
+    
 })
 
 cbtn.addEventListener("click",function(){

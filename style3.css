@@ -82,8 +82,6 @@ span{
   border-right: 2px white solid;
   border-bottom: 2px white solid;
   align-items: center;
- transition: all;
- transition-duration: 2s;
   text-align: center;
  
   
@@ -375,6 +373,9 @@ form {
         padding-right: 15px;
         margin-top: 7rem;
      }
+     .Navbar .con-1{
+        display: none;
+    }
 }
 @media screen and (min-width:767px) and  (max-width:1028px) {
     .contact-container{

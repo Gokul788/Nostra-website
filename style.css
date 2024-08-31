@@ -84,8 +84,7 @@ span{
   border-right: 2px white solid;
   border-bottom: 2px white solid;
   align-items: center;
-  transition: all;
-  transition-duration: 2s;
+  
   
   text-align: center;
  
@@ -681,6 +680,9 @@ background: linear-gradient(56deg, rgba(255,255,255,1) 1%, rgba(0,0,0,1) 100%);
     .slider-content button{
         padding: 1rem 2.5rem;
         margin-top: 1rem;
+    }
+    .Navbar .con-1{
+        display: none;
     }
     
   }

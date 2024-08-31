@@ -82,8 +82,7 @@ span{
   border-right: 2px white solid;
   border-bottom: 2px white solid;
   align-items: center;
-  transition: all;
-  transition-duration: 2s;
+  
   text-align: center;
  
   
@@ -304,6 +303,9 @@ background: linear-gradient(56deg, rgba(255,255,255,1) 1%, rgba(0,0,0,1) 100%);
     }
     .contact-container{
         width: 40%;
+    }
+    .Navbar .con-1{
+        display: none;
     }
 }
 @media screen and (min-width:767px) and  (max-width:1028px) {
