@@ -151,6 +151,7 @@ background: linear-gradient(56deg, rgba(255,255,255,1) 1%, rgba(0,0,0,1) 100%);
     display: flex;
     justify-content: center;
     overflow: hidden;
+    
    
  }
  .container{
@@ -160,7 +161,7 @@ background: linear-gradient(56deg, rgba(255,255,255,1) 1%, rgba(0,0,0,1) 100%);
  .brand-track{
     display: flex;
     width: calc(100px * 12);
-    gap: 2rem;
+    gap: 5rem;
     align-items: center;
     margin-top: 0rem;
     animation: scroll 40s linear infinite;
@@ -633,7 +634,7 @@ background: linear-gradient(56deg, rgba(255,255,255,1) 1%, rgba(0,0,0,1) 100%);
         font-size: 2.5rem;
     }
     span{
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     .ad h3{
         font-size: 18px;
@@ -674,6 +675,10 @@ background: linear-gradient(56deg, rgba(255,255,255,1) 1%, rgba(0,0,0,1) 100%);
     }
     .close{
         display: none;
+    }
+    .slider-content button{
+        padding: 1rem 2.5rem;
+        margin-top: 1rem;
     }
     
   }
